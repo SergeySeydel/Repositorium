@@ -12,12 +12,12 @@ int main(int argc, char **argv)
 	int *DynamicVariable = new int;
 	*DynamicVariable = 4680;
 
-	cout << "Àäðåñ ãëîáàëüíîé ïåðåìåííîé: " <<&GlobalVariable << endl;
-	cout << " Çíà÷åíèå: " << GlobalVariable << endl;
-	cout << "Àäðåñ àâòîìàòè÷åñêîé ïåðåìåííîé: " << &AutomaticVariable << endl;
-	cout <<" Çíà÷åíèå: " << AutomaticVariable << endl;
-	cout << "Àäðåñ äèíàìè÷åñêîé ïåðåìåííîé: " << DynamicVariable << endl;
-	cout <<" Çíà÷åíèå: " << *DynamicVariable << endl;
+	cout << "ÐÐ´Ñ€ÐµÑ Ð³Ð»Ð¾Ð±Ð°Ð»ÑŒÐ½Ð¾Ð¹ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¹: " <<&GlobalVariable << endl;
+	cout << " Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << GlobalVariable << endl;
+	cout << "ÐÐ´Ñ€ÐµÑ Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ð¹ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¹: " << &AutomaticVariable << endl;
+	cout <<" Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << AutomaticVariable << endl;
+	cout << "ÐÐ´Ñ€ÐµÑ Ð´Ð¸Ð½Ð°Ð¼Ð¸Ñ‡ÐµÑÐºÐ¾Ð¹ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¹: " << DynamicVariable << endl;
+	cout <<" Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << *DynamicVariable << endl;
 
 	delete DynamicVariable;
 	return 0;
