@@ -16,21 +16,21 @@ int main(int argc, char **argv)
 	for (int i = 0; i < 5; ++i)
 		DynamicTwoArray[i] = new int[ARR_SZ];
 
-	cout << "Ñòàòè÷åñêèé îäíîðàçìåðíûé ìàññèâ:" << endl;
+	cout << "Ð¡Ñ‚Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¾Ð´Ð½Ð¾Ñ€Ð°Ð·Ð¼ÐµÑ€Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²:" << endl;
 	for (int i = 0; i < 5; ++i)
 	{
 		cout <<&(StaticOneArray[i]) << " ";
 	}
 	cout << endl;
 
-	cout << "Äèíàìè÷åñêèé :" << endl;
+	cout << "Ð”Ð¸Ð½Ð°Ð¼Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ :" << endl;
 	for (int i = 0; i < 5; ++i)
 	{
 		cout <<&(DynamicArray[i]) << " ";
 	}
 	cout << endl;
 
-	cout << "Ñòàòè÷åñêèé Äâóõðàçìåðíûé ìàññèâ:" << endl;
+	cout << "Ð¡Ñ‚Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð´Ð²ÑƒÑ€Ð°Ð·Ð¼ÐµÑ€Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²:" << endl;
 	for (int i = 0; i < 5; ++i)
 	{
 		for (int j = 0; j < 5; ++j)
@@ -40,7 +40,7 @@ int main(int argc, char **argv)
 		cout << endl;
 	}
 
-	cout << "Äèíàìè÷åñêèé äâóðàçìåðíûé ìàññèâ:" << endl;
+	cout << "Ð”Ð¸Ð½Ð°Ð¼Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð´Ð²ÑƒÑ€Ð°Ð·Ð¼ÐµÑ€Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²:" << endl;
 	for (int i = 0; i < 5; ++i)
 	{
 		for (int j = 0; j < 5; ++j)
