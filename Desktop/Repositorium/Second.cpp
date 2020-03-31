@@ -8,11 +8,12 @@ int main(int argc, char **argv)
 
     const int ARR_SZ = 5;
     const int ARR_SZ2 = 5;
+    const int ARR_SIZE = 100;
     const int val = 5;
     int StaticOneArray[ARR_SZ];
     int StaticDoubleTwoArray[ARR_SZ][ARR_SZ2];
 
-    int *DynamicArray = new int[100];
+    int *DynamicArray = new int[ARR_SIZE];
     int **DynamicTwoArray = new int*[ARR_SZ];
 	for (int i = 0; i < val; ++i)
 		DynamicTwoArray[i] = new int[ARR_SZ];
